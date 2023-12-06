@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Flores | Portfolio',
   description: 'Raul Flores Portfolio',
   icons: {
-    icon: '/logo.png',
+    icon: '/icon.png',
   },
 }
 
