@@ -5,7 +5,10 @@ import React, {useState} from 'react'
 import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper'
 import {client} from '../../client'
-
+import { MdEmail } from "react-icons/md";
+import Email from '../../assets/envelope.svg'
+import Image from 'next/image'
+import phone from '../../assets/phone1.png'
 
 import './Footer.scss'
 const Footer = () => {
@@ -43,11 +46,12 @@ const Footer = () => {
       <h2 className='head-text'>Feel free to contact me </h2>
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
-          <img src={images.email} alt="email" />
+          <Image src={Email} alt='email' height={40}/>
           <a href="mailto:raul.alexander.floress@gmail.com" className='p-text'>raul.alexander.floress@gmail.com</a>
         </div>
         <div className='app__footer-card'>
-          <img src={images.mobile} alt="mobile" />
+          <Image src={phone} alt='phone' height={40}/>
+
           <a href="tel + 1 (310) 402 8397 " className='p-text'>+1 (310) 402-8397</a>
         </div>
 

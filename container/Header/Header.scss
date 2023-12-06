@@ -1,6 +1,6 @@
 #home {
     position: relative;
-    background: url('../../assets/bgIMG.png');
+    //background: url('../../assets/bgIMG.png');
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -103,7 +103,7 @@
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        background: var(--white-color);
+        background: var(--gray2-color);
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
 
         img{
