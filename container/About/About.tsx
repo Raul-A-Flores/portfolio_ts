@@ -23,6 +23,7 @@ const About = () => {
 
   return (
     <>
+    
       <h2 className='head-text'  >
       A little<span> <br/> about me</span></h2>
       <div className='app__profiles'>

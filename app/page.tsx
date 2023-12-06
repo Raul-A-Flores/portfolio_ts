@@ -6,7 +6,7 @@ import { About, Header, Footer, Skills, Work } from '../container'
 const App = () => {
   return (
     
-    <div className='app'>
+    <div className='app '>
       <Navbar />
       <Header />
       <About />

@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 :root {
-  --font-base: "DM Sans", sans-serif;
+  
+  --font-base: "Poppins", sans-serif;
 
   --primary-color: #242424;
-  --secondary-color: #313bac;
+  --secondary-color: #F7AB0A;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
@@ -22,4 +23,17 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  
+}
+
+@layer components {
+  .heroButton { 
+      @apply px-6 py-2 border border-[#242424] rounded-full text-sm tracking-widest text-gray-500 transition-all hover:text-[#F8AB0A]/40 hover:border-[#F8AB0A]/40
+  }
+
+
+  .contactInput{
+      @apply outline-none bg-slate-400/10  px-6 py-4 rounded-sm border-b border-[#242424] text-gray-500 transition-all
+  placeholder-gray-500 focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40
+  }
 }
