@@ -4,15 +4,18 @@ import React, { useState} from 'react'
 import { HiMenuAlt4, HiX,} from 'react-icons/hi'
 import { motion } from 'framer-motion'
 import './Navbar.scss'
-
-
+import icon from './logo.png'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
+
+
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        
+      <Image src={icon} alt='icon'/>
+
       </div>
       <ul className='app__navbar-links'>
         {
