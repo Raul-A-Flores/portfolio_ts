@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsTwitter, BsInstagram,} from 'react-icons/bs'
 import {  FaGithub, FaLinkedin} from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6";
 
 
 
@@ -9,7 +10,7 @@ const SocialMedia = () => {
     <div className='app__social'>
         <div >
           <a href='https://twitter.com/Raul__Floress'>    
-            <BsTwitter />
+            <FaXTwitter />
           </a>
         </div>
         <div>
