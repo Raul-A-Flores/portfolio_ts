@@ -31,7 +31,7 @@ const Skills = () => {
   return (
     <>
 
-      <h2 className='head-text'>Skills & Experience</h2>
+      <h2 className='head-text'>Skills & <span>Experience</span></h2>
       <div className='app__skills-container'>
         <motion.div className='app__skills-list'>
         {skills.map((skills)=>(
@@ -45,7 +45,7 @@ const Skills = () => {
             <div className='app__flex' style={{backgroundColor: skills.bgColor}}>
               <img src={urlFor(skills.icon)} alt={skills.name}/>
             </div>
-            <p className='p-text'>{skills.name}</p>
+            <p className='p1-text'>{skills.name}</p>
           </motion.div>
         ))}
 
