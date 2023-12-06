@@ -6,7 +6,7 @@ import { AiFillEye, AiFillGithub } from 'react-icons/ai'
 import ReactTooltip from 'react-tooltip'
 import { motion } from 'framer-motion'
 import { AppWrap, MotionWrap} from '../../wrapper'
-import { urlFor, client} from '../../../client'
+import { urlFor, client} from '../../client'
 
 import './Skills.scss'
 

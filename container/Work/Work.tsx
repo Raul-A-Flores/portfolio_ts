@@ -5,7 +5,7 @@ import React, { useState, useEffect} from 'react'
 import { AiFillEye, AiFillGithub } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 import { AppWrap, MotionWrap} from '../../wrapper'
-import { urlFor, client} from '../../../client'
+import { urlFor, client} from '../../client'
 import './Work.scss'
 
 
@@ -28,7 +28,7 @@ const Work = () => {
 
   const handleWorkFilter = (item) => {
     setActive(item)
-    setAnimateCard([{y:100, opacity: 0}])
+    setAnimateCard({y:100, opacity: 0})
 
     setTimeout(() => {
       setAnimateCard([{y:0, opacity: 1}])

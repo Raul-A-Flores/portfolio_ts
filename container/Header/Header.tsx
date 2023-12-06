@@ -6,7 +6,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image'
 import { AppWrap } from '../../wrapper';
-import { images } from '@/app/constants';
+import { images } from '@/constants'
 import './Header.scss';
 import profile from '../../assets/profile.png'
 
