@@ -53,11 +53,11 @@
   
   .head-text {
     font-size: 2.75rem;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     color: var(--black-color);
     text-transform: capitalize;
-  
+    letter-spacing: 5px;
     span {
       color: var(--secondary-color);
     }
