@@ -8,7 +8,7 @@ import {client} from '../../client'
 import { MdEmail } from "react-icons/md";
 import Email from '../../assets/envelope.svg'
 import Image from 'next/image'
-import phone from '../../assets/phone1.png'
+import phone from '../../assets/phone-modern.svg'
 
 import './Footer.scss'
 const Footer = () => {
