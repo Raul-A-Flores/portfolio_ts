@@ -97,6 +97,20 @@
     margin: 1rem 0;
 }
 
+
+.skill__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    @media screen and (max-width: 450px){
+        flex-direction: column;
+    }
+
+   
+}
+
 .app__skills-exp-works{
     flex: 1;
     

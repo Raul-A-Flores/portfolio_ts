@@ -22,7 +22,7 @@ const About = () => {
 
 
   return (
-    <>
+    <div className='about__container'>
     
       <h2 className='head-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-50'  >
       A little<span> <br/> about me</span></h2>
@@ -44,7 +44,7 @@ const About = () => {
 
 
       </div>
-    </>
+    </div>
   )
 }
 

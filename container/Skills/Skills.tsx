@@ -29,7 +29,7 @@ const Skills = () => {
     })
   }, [])
   return (
-    <>
+    <div className='skill__container'>
 
       <h2 className='head-text'>Skills & <span>Experience</span></h2>
       <div className='app__skills-container'>
@@ -89,7 +89,7 @@ const Skills = () => {
           ))}
         </div> */}
       </div>
-    </>
+    </div>
   );
 };
 

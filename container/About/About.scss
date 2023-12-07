@@ -13,6 +13,19 @@
 
 }
 
+.about__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    @media screen and (max-width: 450px){
+        flex-direction: column;
+    }
+
+   
+}
+
 .app__profile-item{
     width: 190px;
     display: flex;
