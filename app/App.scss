@@ -112,6 +112,18 @@
       font-size: 1.75rem;
     }
   }
+
+  .about__p-text {
+    font-size: 0.8rem;
+    text-align: left;
+    color: var(--gray2-color);
+    line-height: 1.5;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 1.75rem;
+    }
+  }
+  
   
   .bold-text {
     font-size: 1rem;
@@ -127,6 +139,23 @@
       font-size: 0.9rem;
     }
   }
+
+  .about__bold-text {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+    text-align: left;
+    text-decoration: underline;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 2rem;
+    }
+  
+    @media screen and (max-width: 450px) {
+      font-size: 0.9rem;
+    }
+  }
+  
   
   .app__social {
     display: flex;

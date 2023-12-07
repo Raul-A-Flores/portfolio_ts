@@ -24,7 +24,7 @@ const About = () => {
   return (
     <div className='about__container'>
     
-      <h2 className='head-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-50'  >
+      <h2 className='head-text'  >
       A little<span> <br/> about me</span></h2>
       <div className='app__profiles'>
       { abouts.map((about,index) =>(
@@ -36,8 +36,8 @@ const About = () => {
         key={about.title + index}
         >
           <img src={urlFor(about.imgUrl)} alt={about.title}/>
-          <h2 className='bold-text' style={{ marginTop: 20}}>{about.title}</h2>
-          <p className='p-text' style={{ marginTop: 10}}>{about.description}</p>
+          <h2 className='about__bold-text' style={{ marginTop: 20}}>{about.title}</h2>
+          <p className='about__p-text' style={{ marginTop: 10}}>{about.description}</p>
 
         </motion.div>
       ))}
